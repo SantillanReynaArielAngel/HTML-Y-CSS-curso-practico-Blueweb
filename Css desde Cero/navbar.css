@@ -1,0 +1,46 @@
+.nav_enlace{
+    background: rgba(0, 128, 0, 0.672);
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav_enlace:hover{
+    background: green;
+}
+
+nav{
+    background: #f4cca4;
+    padding: 10px;
+    display:Flex;
+    justify-content: space-around;
+}
+
+.nav_button{
+    background: rgba(0, 128, 0, 0.672);
+    color: white;
+    padding: 10px px;
+    border: 2 solid white;
+    display: none;
+}
+
+@media( max-width: 600px){
+    nav{
+        background: yellow;
+        flex-direction: column;
+    }
+
+    .nav_enlace{
+        margin: 3px 0px;
+    }
+
+    .nav_button{
+        display: inline-block;
+    }
+
+    .desaparece{
+        display: none;
+    }
+
+}

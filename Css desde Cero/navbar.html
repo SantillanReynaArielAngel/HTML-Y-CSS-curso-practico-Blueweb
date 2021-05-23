@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./navbar.css">
+
+
+</head>
+<body>
+    <nav>
+        <button class="nav_button" onclick="accion()">Menu</button>
+        <a href="" class="nav_enlace desaparece">Inicio</a>
+        <a href="" class="nav_enlace desaparece">Nosotros</a>
+        <a href="" class="nav_enlace desaparece">Servicios</a>
+        <a href="" class="nav_enlace desaparece">Contactos</a>
+        
+    </nav>
+
+
+    <script>
+        function accion(){
+            console.log("Hola");
+            var  ancla=document.getElementsByClassName("nav_enlace");
+            for(var i=0;i<ancla.length;i++){
+                ancla[i].classList.toggle("desaparece");
+            }
+        }
+    </script>
+</body>
+</html>

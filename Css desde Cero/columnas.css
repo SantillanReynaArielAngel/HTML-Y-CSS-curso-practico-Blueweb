@@ -1,0 +1,15 @@
+nav{
+    background: #867ae9 ;
+    padding: 20px 10px;
+}
+
+p{
+    background: #f4cca4;
+    padding:30px;
+    width: 25%;
+    margin: 5px;
+}
+
+.Padre{
+    display: Flex;
+}

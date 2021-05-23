@@ -1,0 +1,29 @@
+h1{
+    color:tomato;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#unico{
+    color:aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.azul{
+    color:blue;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.fondo{
+    background:#444;
+}
+
+.verde{
+    color:rgb(27, 219, 43);
+}
+
+.amarillo{
+    color:yellow;
+}
+
+.rojo{
+    color:rgb(225, 65, 65);
+}
