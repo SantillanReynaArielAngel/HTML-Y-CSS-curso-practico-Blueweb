@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.contenedor{
+    width:80%;
+    height:500px;
+    background: #ff5c29;
+    margin: 50px auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    /* justify-content:space-around; */
+    /* align-items:center; */
+
+    /* Lo siguiente es mutuamente excluyentes con align-self: que se encuentre en elemento hijo  */
+    /* align-content:space-around */
+}
+
+.hijo{
+    background: #00b285;
+    width:200px;
+    height:100px;
+    color:#fff;
+    margin: 30px;
+    padding: 20px;
+    font-size:40px;
+    text-align:center;
+
+/* flex-grow: 1;
+    flex-shrink: 1; */
+    /* Lo sihuiente es el equivalente a las 2 lineas anteriores  y hace que todos los elementos crescan proporcionales entre si */
+    flex: 1 1 auto;
+    /* order:2; */
+
+
+}
+
+.otro{
+    align-self:stretch;
+    height:auto;
+}
